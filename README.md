@@ -40,7 +40,7 @@ math.html
 </head>
 <body bgcolor="lightblue">
     <center>
-        <h2>BMI Calculator</h2>
+      <h2>BMI Calculator</h2>
         <form method="POST">
             {% csrf_token %}
             <label>Height (m):</label><br>
@@ -50,9 +50,7 @@ math.html
             <button type="submit">Calculate</button>
         </form>
 
-        
-
-        {% if BMI %}
+  {% if BMI %}
             <h3>Your BMI is: {{ BMI }}</h3>
         {% endif %}
     </center>
