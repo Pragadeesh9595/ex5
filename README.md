@@ -61,10 +61,8 @@ math.html
 
 ## SERVER SIDE PROCESSING:
 
-<img width="655" height="266" alt="Screenshot 2025-10-06 145051" src="https://github.com/user-attachments/assets/752374e1-1aed-4691-b6c9-ea7b88099765" />
 
 ## HOMEPAGE:
-<img width="883" height="531" alt="Screenshot 2025-10-06 144912" src="https://github.com/user-attachments/assets/1695671e-fffe-43f0-9426-7b50204cf5e3" />
 
 
 
