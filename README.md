@@ -1,5 +1,5 @@
 # Ex.05 Design a Website for Server Side Processing
-## Date:
+## Date: 6.10.25
 
 ## AIM:
  To design a website to calculate the power of a lamp filament in an incandescent bulb in the server side. 
@@ -32,17 +32,62 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
-
-    <
-
-
+```
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Area of Rectangle</title>
+    <style>
+        body {
+            font-size: 20px;
+            background-color: blue;
+        }
+        .formelt {
+            color: orange;
+            text-align: center;
+            margin-top: 7px;
+            margin-bottom: 6px;
+        }
+        h1 {
+            color: rgb(255, 0, 179);
+            text-align: center;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="edge">
+        <div class="box">
+            <h1>Area of a Rectangle</h1>
+            <form method="POST">
+                {% csrf_token %}
+                <div class="formelt">
+                    Length : <input type="text" name="length" value="{{ l }}"> (in m)<br/>
+                </div>
+                <div class="formelt">
+                    Breadth : <input type="text" name="breadth" value="{{ b }}"> (in m)<br/>
+                </div>
+                <div class="formelt">
+                    <input type="submit" value="Calculate"><br/>
+                </div>
+                <div class="formelt">
+                    Area : <input type="text" name="area" value="{{ area }}"> m<sup>2</sup><br/>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+```
 
 
 ## SERVER SIDE PROCESSING:
+<img width="900" height="261" alt="Screenshot 2025-10-06 192357" src="https://github.com/user-attachments/assets/6feec7ea-2dac-4843-9f07-3c9abb6f54e7" />
 
 
 ## HOMEPAGE:
 
+<img width="1756" height="906" alt="Screenshot 2025-10-06 185342" src="https://github.com/user-attachments/assets/bc6abbac-14ff-4b03-88f0-97da40123d6a" />
 
 
 ## RESULT:
