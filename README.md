@@ -32,12 +32,43 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
+math.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Calculator</title>
+</head>
+<body bgcolor="lightblue">
+    <center>
+        <h2>BMI Calculator</h2>
+        <form method="POST">
+            {% csrf_token %}
+            <label>Height (m):</label><br>
+            <input type="text" name="height"><br><br>
+            <label>Weight (kg):</label><br>
+            <input type="text" name="weight"><br><br>
+            <button type="submit">Calculate</button>
+        </form>
+
+        
+
+        {% if BMI %}
+            <h3>Your BMI is: {{ BMI }}</h3>
+        {% endif %}
+    </center>
+</body>
+</html>
+
+
 
 
 ## SERVER SIDE PROCESSING:
 
+<img width="655" height="266" alt="Screenshot 2025-10-06 145051" src="https://github.com/user-attachments/assets/752374e1-1aed-4691-b6c9-ea7b88099765" />
 
 ## HOMEPAGE:
+<img width="883" height="531" alt="Screenshot 2025-10-06 144912" src="https://github.com/user-attachments/assets/1695671e-fffe-43f0-9426-7b50204cf5e3" />
+
 
 
 ## RESULT:
